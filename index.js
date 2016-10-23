@@ -1,0 +1,3 @@
+shout(string){
+  string.toUppercase()
+}
