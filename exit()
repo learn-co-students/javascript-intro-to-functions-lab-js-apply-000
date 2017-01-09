@@ -1,0 +1,20 @@
+[33m7c5a096[m Merge pull request #6 from 7KINGDAVID7/7KINGDAVID7-1470889232 [31m(AnnJohn, 5 months ago)[m
+[33mb172ce0[m Merge pull request #9 from cernanb/cernanb-1471980612 [31m(AnnJohn, 5 months ago)[m
+[33ma754caf[m Updated README.md [31m(cernanb, 5 months ago)[m
+[33m2c5dbaa[m Inside "test/index-test.js" there is a line of code in the first "describe" which is written like this "expect(shout('hello')).toEqual('HELLO')". Inside the learn.co "Intro to Function Lab" there is an example written like this "expect(shout('hello')).to.equal('HELLO')". Which is correct? ".toEqual" or ".to.equal"? I feel it is ".toEqual". Correct me if I'm wrong. Under "YOUR TURN" at the bottom next to "(e.g., 'HELLO' .toLowerCase() )" this is written. "changesany" I feel this should be a space between"changes" and "any". [31m(David Ganthier, 5 months ago)[m
+[33m29ca91b[m Merge remote-tracking branch 'jnoconor/patch-1' [31m(Charles Pletcher, 5 months ago)[m
+[33m56015b9[m Use virtualConsole [31m(Charles Pletcher, 5 months ago)[m
+[33m841e695[m add virtualConsole in jsdom env [31m(jnoconor, 5 months ago)[m
+[33m3b9bfc3[m Move browser tests to index.html [31m(Charles Pletcher, 5 months ago)[m
+[33mdf45c95[m Remove stuff about jsdom setup [31m(Charles Pletcher, 6 months ago)[m
+[33m7335905[m updated tests to browser based (#3) [31m(Joseph Cutler, 6 months ago)[m
+[33m933cbc6[m Highlight narrative in README [31m(Charles Pletcher, 6 months ago)[m
+[33m989f901[m Add tests for flow control [31m(Charles Pletcher, 6 months ago)[m
+[33mec899f5[m Merge pull request #1 from aturkewi/aturkewi-1467335581 [31m(Avidor Turkewitz, 6 months ago)[m
+[33mfe99371[m Fix typo [31m(Avidor Turkewitz, 6 months ago)[m
+[33m8b717f7[m Update README.md [31m(Charles Pletcher, 7 months ago)[m
+[33m5299d49[m Keep code-along, but remove structure walkthrough -- they should have done this previously [31m(Charles Pletcher, 7 months ago)[m
+[33m3cc6e80[m Update README.md [31m(Charles Pletcher, 7 months ago)[m
+[33m86c3280[m Update objectives [31m(Charles Pletcher, 7 months ago)[m
+[33m7ee3891[m Fix typo in test file [31m(Charles Pletcher, 7 months ago)[m
+[33m71d167e[m Initial commit [31m(Charles Pletcher, 7 months ago)[m
