@@ -124,11 +124,11 @@ Additionally, how do we check if a string is all lowercase or all uppercase?
 ```javascript
 var uppercase = "HELLO!"
 
-uppercase.toUpperCase() === uppercase // true
+uppercase.toUpperCase() === str // true
 
 var lowercase = 'hello!'
 
-lowercase.toLowerCase() === lowercase // true
+lowercase.toLowerCase() === str // true
 
 var mixedCase = 'Hi there!'
 
