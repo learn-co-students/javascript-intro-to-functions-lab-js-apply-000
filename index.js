@@ -20,10 +20,6 @@ var str = "hello"
 
     if(str.toLowerCase()==str)
       return "I can\'t hear you!"
-
-    else
-       return "YES INDEED!"
-
 }
 
 
@@ -39,7 +35,7 @@ var str = "hello"
 
 
 
- /*function sayHiToGrandma(string){
+ function sayHiToGrandma(string){
        var uppercase = "HELLO!"
            uppercase.toUpperCase() === uppercase // true
            return "I can\'t hear you!"
@@ -48,7 +44,7 @@ var str = "hello"
            lowercase.toLowerCase() === lowercase // true
            return "YES INDEED!"
 
-        var mixedCase = 'Hi there!'
+        var mixedCase = "I love you, Grandma."
           mixedCase.toLowerCase() === mixedCase // false
            return "I love you, too."
 
@@ -57,4 +53,4 @@ var str = "hello"
 
 
 
-  }*/
+  }
