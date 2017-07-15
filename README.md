@@ -74,6 +74,7 @@ When we write our code, we follow the guidance of the tests. Remember the line, 
 
 ``` javascript
 function shout(string) {
+  return string.toUpperCase()
 }
 ```
 
@@ -83,7 +84,7 @@ Okay, so with that information, we know that our function should look like
 
 ``` javascript
 function shout(string) {
-  return string
+  return string.toUpperCase()
 }
 ```
 
