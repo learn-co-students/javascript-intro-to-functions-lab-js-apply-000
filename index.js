@@ -17,14 +17,13 @@ function logWhisper (string){
 }
 
 function sayHiToGrandma (string){
-  if( string === string.toUpperCase()){
+    if (string === "I love you, Grandma.")
+    return "I love you, too.";
+    else if (string === string.toLowerCase())
+      return "I can't hear you!";
+    else if (string === string.toUpperCase())
     return "YES INDEED!";
-  } else if (string === string.toLowerCase()){
-      return "I can\'t hear you!"
-    } else if (string === "I love you, Grandma."){
-      return "I love you, too."
-    }
-  }
+}
 
 //   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
 //     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
