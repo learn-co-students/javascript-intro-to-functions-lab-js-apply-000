@@ -1,24 +1,25 @@
 function shout(string){
   return string.toUpperCase()
 }
-
+//uppercase word
 function whisper(string){
   return string.toLowerCase()
 }
-
+//lowercase word
 function logShout(string){
-  console.log(logShout.toUpperCase())
+  console.log(string.toUpperCase())
 }
-
+//logs UC word
 function logWhisper(string){
-  console.log(logWhisper.toLowerCase())
+  console.log(string.toLowerCase())
 }
-
+//logs LC word
 function sayHiToGrandma(string){
-  if (string).toLowerCase()
+  if (string === string.toLowerCase())
     return "I can't hear you!"
-  else if (string).toUpperCase()
+  if (string === string.toUpperCase())
     return "YES INDEED!"
-  else if (string) = "I love you, Grandma."
+  if (string === "I love you, Grandma.")
     return "I love you, too."
 }
+//retuns grandma's response
