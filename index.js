@@ -1,4 +1,5 @@
 function shout(string) {
+
   return string.toUpperCase()
 }
 
@@ -23,4 +24,7 @@ if(string === string.toUpperCase())
   if(string === "I love you, Grandma."){
   return 'I love you, too.'
 }
+
+  return string.toUppercase()
+
 }
