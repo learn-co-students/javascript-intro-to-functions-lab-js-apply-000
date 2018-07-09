@@ -28,5 +28,5 @@ function sayHitoGrandma(string) {
   mixedCase.toLowerCase() === mixedCase // false
   mixedCase.toUpperCase() === mixedCase // false
  
- 
+ console.log(shout('yes indeed!'))
 }
