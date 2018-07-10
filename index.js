@@ -33,4 +33,3 @@ function sayHiToGrandma(string) {
   else if (mixedCase) {
     return "I love you, too."}
 }
-
