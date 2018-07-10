@@ -20,15 +20,12 @@ function sayHiToGrandma(string) {
   var lowercase = "hello"
   var mixedCase = "I love you, Grandma."
   
-  uppercase.toUpperCase() === uppercase // true
-  lowercase.toLowerCase() === lowercase // true
-  mixedCase.toLowerCase() === mixedCase // false
-  mixedCase.toUpperCase() === mixedCase // false
- 
+  console.log(uppercase.toUpperCase() === uppercase, "YES INDEED!")
   
-  console.log("HELLO","hello","I love you, Grandma.")
-  return "YES INDEED!"
+  console.log(lowercase.toLowerCase() === lowercase, "I can't hear you!")
   return "I can't hear you!"
-  return "I love you, too."
-
+  
+  console.log(mixedCase.toLowerCase() === mixedCase & mixedCase.toUpperCase() === mixedCase, "I love you, too.")
+  
 }
+
