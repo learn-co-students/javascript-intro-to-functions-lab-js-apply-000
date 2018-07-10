@@ -14,21 +14,23 @@ function logWhisper(string) {
   console.log(whisper('hello'))
 }
 
-function sayHiToGrandma(string) {
-  
-  var uppercase = "HELLO"
+// sayHiToGrandma code 
+
+ var uppercase = "HELLO"
   uppercase.toUpperCase() === uppercase // true
   var lowercase = "hello"
   lowercase.toLowerCase() === lowercase // true
   var mixedCase = "I love you, Grandma."
   mixedCase.toLowerCase() === mixedCase // false
   mixedCase.toUpperCase() === mixedCase // false
+
+function sayHiToGrandma(string) {
   
   console.log(lowercase)
-  return lowercase.toLowerCase("I can't hear you!")
+  return "I can't hear you!"
   
   console.log(uppercase)
-  return uppercase.toUpperCase("YES, INDEED!")
+  return "YES, INDEED!"
   
   console.log(mixedCase)
   return "I love you, too."
