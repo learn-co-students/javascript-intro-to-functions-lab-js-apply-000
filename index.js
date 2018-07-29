@@ -36,19 +36,14 @@ logWhisper("hello");
 //describe('sayHiToGrandma(string)'
 
 function sayHiToGrandma(string) {
-  var uppercase = "HELLO!";
-  uppercase.toUpperCase() === uppercase;
-  var lowercase = "hello!";
-  lowercase.toLowerCase() === lowercase;
-  var mixedCase = "I love you, Grandma.";
-  mixedCase.toLowerCase() === mixedCase;
-  mixedCase.toUpperCase() === mixedCase;
-  if (string == uppercase) {
-    return "YES INDEED!";
-  } else if (string == lowercase) {
+  if (string.toLowerCase() === string) {
     return "I can't hear you!";
-  } else {
+  } else if (string.toUpperCase() === string) {
+    return "YES INDEED!";
+  } else if (string === "I love you, Grandma.") {
     return "I love you, too.";
+  } else {
+    return nil;
   }
 }
 
