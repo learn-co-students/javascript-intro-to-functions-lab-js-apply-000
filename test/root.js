@@ -1,7 +1,7 @@
-global.expect = require('expect');
+global.expect = require('expect');   
 
 const babel = require('babel-core');
-const jsdom = require('jsdom');
+const jsdom = require('jsdom');         // these are all libraries
 const path = require('path');
 
 before(function(done) {
