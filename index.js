@@ -32,7 +32,7 @@ function logWhisper(string) {
 
 /*
 * Takes a string as an argument and:
-* 1) if the string is all lowercase, returns "I can't hear you" 
+* 1) if the string is all lowercase, returns "I can't hear you!" 
 * 2) if the string is all uppercase, returns "YES INDEED!"
 * 3) if the string is "I love you, Grandma." returns "I love you, too."
 */
