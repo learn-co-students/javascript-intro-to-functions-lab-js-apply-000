@@ -14,6 +14,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
+
 /*
 * Takes a string as an argument and logs it in all caps: 'hello' to "Hello"
 */
