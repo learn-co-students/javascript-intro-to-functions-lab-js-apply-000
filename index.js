@@ -7,6 +7,11 @@ function whisper(String){
 function logShout(String){
   console.log(shout(String))
 }
-function logwhisper(String){
+function logWhisper(String){
   console.log(whisper(String))
+}
+function sayHiToGrandma(String){
+  if(String === whisper(String){
+    return console.log("I can't hear you!")
+  } )
 }
