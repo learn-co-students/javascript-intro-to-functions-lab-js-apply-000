@@ -4,6 +4,9 @@ function shout(String){
 function whisper(String){
   return String.toLowerCase()
 }
-function spyon(String){
-  console.log(String.toUpperCase)
+function logShout(String){
+  console.log(shout(String))
+}
+function logwhisper(String){
+  console.log(whisper(String))
 }
