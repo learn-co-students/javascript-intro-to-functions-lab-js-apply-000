@@ -47,4 +47,20 @@ describe('sayHiToGrandma(string)', function() {
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
-})
+}
+
++function sayHiToGrandma(string){
+     if (string === string.toLowerCase()){
+       var lowerCase = string.toLowerCase();
+       return ('I can\'t hear you!');
+     }
+     else if (string === string.toUpperCase()){
+       var upperCase = 'YES INDEED!';
+       return ('YES INDEED!');
+       }
+      else{
+         var mixedCase = 'I love you, too.';
+         return(mixedCase);
+       }
+     }
+ 
