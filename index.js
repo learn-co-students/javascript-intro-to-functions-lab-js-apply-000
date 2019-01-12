@@ -31,7 +31,3 @@ function sayHiToGrandma(string) {
   }
 
 }
-
-sayHiToGrandma('hello');
-sayHiToGrandma('HELLO');
-sayHiToGrandma('I lurv yous');
