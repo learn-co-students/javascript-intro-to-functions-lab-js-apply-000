@@ -1,27 +1,34 @@
 function shout(string){
-  return string.toUpperCase();
+  if (string === string.toLowerCase()) {
+    return string.toUpperCase();
+  }
 }
 
 function whisper(string){
-  return string.toLowerCase();
+  if (string === string.toUpperCase()) {
+    return string.toLowerCase();
+  }
 }
 
 function logShout(string){
-  console.log(string.toUpperCase());
+  if (string === string.toLowerCase()) {
+    console.log(string.toUpperCase());
+  }
 }
 
 function logWhisper(string){
-  console.log(string.toLowerCase());
+  if (string === string.toUpperCase()) {
+    console.log(string.toLowerCase());
+  }
 }
 
+//Or just a bunch of if statements...
 function sayHiToGrandma(string){
   if (string === string.toLowerCase()) {
-    return "I can't hear you!"
-  }
-  if (string === string.toUpperCase()) {
+    return 'I can\'t hear you!'
+  }else if (string === string.toUpperCase()) {
     return "YES INDEED!"
-  }
-  if (string === "I love you, Grandma.") {
+  }else if (string === "I love you, Grandma.") {
     return "I love you, too."
   }
 }
