@@ -48,3 +48,9 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
+function shout(string) {return string.toUpperCase()}
+function whisper(string) {return string.toLowerCase()}
+function logshout(string) {calls console.log toUpperCase()}
+
+function sayHiToGrandma(string) {return "I can\'t hear you!"}
+
