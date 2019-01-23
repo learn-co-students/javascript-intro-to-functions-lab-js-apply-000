@@ -14,10 +14,14 @@ function logWhisper (string) {
   console.log ('hello') 
 }
 
-function sayHiToGrandma (string) { 
-  return "I can't hear you!"
+function sayHiToGrandma (greeting) { return "I' can't hear you!"} 
+
+
+function saySomething(greeting) {
+	if (greeting == "Hi there") {
+		return "Howdy"
+	} else if (greeting == "Hello") {
+		return "Good day"
+    }
 }
-function sayHiToGrandma (string){ 
-return ("YES INDEED!")
-}
-  
+    
