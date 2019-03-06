@@ -25,4 +25,3 @@ var sayHiToGrandma = (string) => {
 };
 
 
-
