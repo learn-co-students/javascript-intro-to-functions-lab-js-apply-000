@@ -1,8 +1,10 @@
 var uppercase = "HELLO"
-//Defines the variable 'uppercase' and sets it equal to the string 'HELLO'
+//Defines the global variable 'uppercase'
+//Assigns 'uppercase' the string 'HELLO'
 
 var lowercase = "hello"
-//Defines the variable 'lowercase' and sets it equal to the string 'hello'
+//Defines the variable 'lowercase'
+//Assigns 'lowercase' the string 'hello'
 
 function shout(string) {
   return string.toUpperCase()
@@ -20,13 +22,13 @@ function logShout() {
  console.log("HELLO")
 }
 //Defines the function 'logShout' that takes no arguments
-//Prints the string "HELLO"
+//'logShout' prints the string "HELLO"
 
 function logWhisper() {
  console.log("hello")
 }
 //Defines the function 'logWhisper' that takes no arguments
-//Prints the string "hello"
+//logWhisper prints the string "hello"
 
 function sayHiToGrandma(string) {
   if (string === lowercase) {
