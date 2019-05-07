@@ -14,7 +14,7 @@ describe('whisper(string)', function() {
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
-
+  console.log(spy);
     logShout('hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
