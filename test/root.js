@@ -1,3 +1,4 @@
+
 global.expect = require('expect');
 
 const babel = require('babel-core');
