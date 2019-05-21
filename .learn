@@ -1,6 +1,2 @@
-tags:
-  - javascript
-languages:
-  - javascript
-resources:
-  - 1
+console.log("Hello World")
+
