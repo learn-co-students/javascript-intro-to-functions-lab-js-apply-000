@@ -1,8 +1,6 @@
-var uppercase = "Hi grandMa"
-uppercase.toUppercase() === uppercase//true
-var lowercase = 'Hi grandMa'
-lowercase.toLowercase() === lowercase//true
-var mixedCase = 'i love you grandMa'
-mixedcase.toLowercase() === mixedcase//false
-mixedCase.toUppercase() === mixedCase//false
-
+function greet (string){}
+function greet (string){return string}
+'HI grandma!'.toUppercase()//'Hi grandma'
+function whisper(string){}
+function whisper (string) {return string.toUpperCase()}
+'I love you grandma'.toUpperCase()//'I love you grandma'
