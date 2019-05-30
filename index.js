@@ -1,8 +1,8 @@
-function speak (whisper) {return whisper}
-function speak (shout) {return shout}
-function say (shout)  {return shout}
-'HI grandma!'.toUppercase()//HI
-function say (whisper) {return whisper} 
-function say (shout) {return shout} 
-'I love you Grandma'.toUppercase()//I love you Grandma
+var uppercase = "Hi grandMa"
+uppercase.toUppercase() === uppercase//true
+var lowercase = 'Hi grandMa'
+lowercase.toLowercase() === lowercase//true
+var mixedCase = 'i love you grandMa'
+mixedcase.toLowercase() === mixedcase//false
+mixedCase.toUppercase() === mixedCase//false
 
