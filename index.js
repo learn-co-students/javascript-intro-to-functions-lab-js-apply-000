@@ -1,4 +1,4 @@
-function shout(string) {
+function shout(string) { //define function "shout" and have it return the entered string in upper case characters.
   return string.toUpperCase()
 }
 
