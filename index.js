@@ -21,19 +21,19 @@ function logWhisper(string){
 //   }
 // }
 
-function sayHiToGrandma(string) {
-  var response;
-  if (string.toLowerCase() === string) {
+function sayHiToGrandma(string) { //Define a function "sayHiToGrandma"
+  var response; //define the "response" variable so we can modify it depending on certain conditions
+  if (string.toLowerCase() === string) { //if the string is lowercase, set response to "I can't hear you"
     response = "I can\'t hear you!"
   }
-  if (string.toUpperCase() === string) {
+  if (string.toUpperCase() === string) { //if the string is Uppercase, set the response variable to "YES INDEED!"
     response = "YES INDEED!"
   }
-  if (string === "I love you, Grandma.") {
+  if (string === "I love you, Grandma.") { //If the string is "I love you, Grandma" set the response variable to "I love you, too."
     response = "I love you, too."
   }
 
-  return response
+  return response //Return response
 }
 
 
