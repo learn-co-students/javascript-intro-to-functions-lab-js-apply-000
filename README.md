@@ -60,7 +60,7 @@ Finally, we have
 expect(shout('hello')).toEqual('HELLO')
 ```
 
-which says that it _expects_ a call to `shout()` with the string `'hello'` will `equal` the string `'HELLO'`. This is the actual test — otherwise called a spec, expectation, or assertion — for this function. We can have more than one test per function, but let's start with this one.
+which says that it _expects_ a call to `shout()` where the string `'hello'` will `equal` the string `'HELLO'`. This is the actual test — otherwise called a spec, expectation, or assertion — for this function. We can have more than one test per function, but let's start with this one.
 
 ### Running the Tests
 
@@ -133,7 +133,6 @@ lowercase.toLowerCase() === lowercase // true
 var mixedCase = 'Hi there!'
 
 mixedCase.toLowerCase() === mixedCase // false
-
 mixedCase.toUpperCase() === mixedCase // false
 ```
 
