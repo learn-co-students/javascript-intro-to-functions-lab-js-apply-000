@@ -1,3 +1,4 @@
+  
 JavaScript Intro to Functions Lab
 ---
 
@@ -33,7 +34,7 @@ const path = require('path');
 This might be a bit bewildering, but all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_.
 
 If you go to `test/index-test.js`, you'll see
-
+ 
 ``` javascript
 describe('shout(string)', function() => {
   // there's stuff in here, too
