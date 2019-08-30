@@ -107,7 +107,7 @@ And run our tests again:
 learn test
 ```
 
-![first test passing](https://s3.amazonaws.com/learn-verified/javascript-intro-to-functions-lab-1-test-passing-new.png)
+![first test passing]
 
 Hey! We got one to pass!
 
