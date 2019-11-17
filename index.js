@@ -1,13 +1,16 @@
-var uppercase = "HELLO!"
+function shout(string) {
+  return string.toUpperCase()
+}
+  var uppercase = "HELLO!"
 
-uppercase.toUpperCase() === uppercase //
+uppercase.toUpperCase(sayHiToGrandma) === uppercase //
 
 var lowercase = 'hello!'
 
-lowercase.toLowerCase() === lowercase //
+lowercase.toLowerCase(sayHiToGrandma) === lowercase //
 
 var mixedCase = 'Hi there!'
 
-mixedCase.toLowerCase() === mixedCase //
+mixedCase.toLowerCase(sayHiToGrandma) === mixedCase //
 
-mixedCase.toUpperCase() === mixedCase //
+mixedCase.toUpperCase(sayHiToGrandma) === mixedCase //
