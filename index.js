@@ -20,7 +20,7 @@ function logWhisper(string) {
 // function checks if the string is in upercase or not,
 // if it isn't it returns I can't hear you!
 function sayHiToGrandma(string) {
-  if string === string.toUpperCase() {
+  if (string === string.toUpperCase()) {
     return "YES INDEED!"
   } 
   else if (string == "I love you, Grandma.") {
