@@ -15,11 +15,23 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if(string === 'hello') {
-    return 'I can\'t hear you!';
-  } else if(string === 'HELLO') {
-    return 'YES INDEED!';
-  } else if(string === 'I love you, Grandma.') {
-    return 'I love you, too.';
+  
+  // if(string === 'hello') {
+  //   return 'I can\'t hear you!';
+  // } else if(string === 'HELLO') {
+  //   return 'YES INDEED!';
+  // } else if(string === 'I love you, Grandma.') {
+  //   return 'I love you, too.';
+  // }
+  
+  switch(string) {
+    case 'hello':
+      return 'I can\'t hear you!';
+    case 'HELLO':
+      return 'YES INDEED!';
+    case 'I love you, Grandma.':
+      return 'I love you, too.';
+    default:
+      return 'There is no conversation';
   }
 }
