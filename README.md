@@ -167,6 +167,7 @@ function called `shout` that accepts an argument — let's add that first. In
 
 ``` javascript
 function shout(string) {
+  return string.toUpperCase()
 }
 ```
 
@@ -177,7 +178,7 @@ Okay, so with that information, we know that our function should look like this:
 
 ``` javascript
 function shout(string) {
-  return string
+  return string.toUpperCase()
 }
 ```
 
