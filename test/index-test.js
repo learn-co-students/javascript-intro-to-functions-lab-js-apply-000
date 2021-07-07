@@ -29,6 +29,7 @@ describe('logWhisper(string)', function() {
 
     logWhisper('HELLO')
 
+
     expect(spy).toHaveBeenCalledWith('hello')
 
     console.log.restore()
